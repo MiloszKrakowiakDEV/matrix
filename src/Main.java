@@ -27,6 +27,6 @@ public class Main {
                 zmienna = 0;
             }
         }
-        System.out.println("Suma wszystkich elementów znajdujących sie wewnątrz przekątnych to " + suma);
+        System.out.println("Czemu to nie dziala " + suma);
     }
 }
