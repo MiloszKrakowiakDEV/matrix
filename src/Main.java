@@ -12,7 +12,7 @@ public class Main {
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++){
                 if (j == i || j + i == 9){
-                    matryca[i][j] = 1;
+                    matryca[i][j] = 991249;
                     suma += matryca[i][j];
                 }
                 else {
@@ -27,6 +27,6 @@ public class Main {
                 zmienna = 0;
             }
         }
-        System.out.println("Suma wszystkich elementów znajdujących sie na przekątnych to " + suma);
+        System.out.println("Suma wszystkich elementów znajdujących sie wewnątrz przekątnych to " + suma);
     }
 }
