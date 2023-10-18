@@ -12,7 +12,7 @@ public class Main {
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++){
                 if (j == i || j + i == 9){
-                    matryca[i][j] = 991249;
+                    matryca[i][j] = 1;
                     suma += matryca[i][j];
                 }
                 else {
@@ -27,6 +27,6 @@ public class Main {
                 zmienna = 0;
             }
         }
-        System.out.println("Czemu to nie dziala " + suma);
+        System.out.println("Suma liczb na przekątnych to " + suma);
     }
 }
